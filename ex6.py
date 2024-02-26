@@ -5,7 +5,7 @@ map_dict = {}
 for _ in range(num_road):
     city_1, city_2, dist = input().split()
     dist = int(dist)
-    map_dict[city_1, city_2] = dist
+    map_dict[(city_1, city_2)] = dist
 
 target = input().split()
 start = target[0]
